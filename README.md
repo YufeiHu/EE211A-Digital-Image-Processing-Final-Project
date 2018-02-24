@@ -7,6 +7,7 @@ The codes and data are downloaded and tested on the local machine. Everything is
 
 ### 1/29: Test training original dataset
 ![alt text](https://github.com/YufeiHu/EE211A-Digital-Image-Processing-Final-Project/blob/master/trump-cage.png)
+
 The network is trained for limited epochs based on the original trump-cage dataset. The result is shown in the figure above.
 
 ### 2/3: Test OpenCV and webcam
