@@ -29,6 +29,6 @@ I have successfully set up an Amazon server. This platform is pretty powerful as
 
 
 ### 2/23: Build our own yufei-qi dataset
-![alt text](https://github.com/YufeiHu/EE211A-Digital-Image-Processing-Final-Project/blob/master/face-shot.png)
+![alt text](https://github.com/YufeiHu/EE211A-Digital-Image-Processing-Final-Project/blob/master/yufei-qi.png)
 
 Our dataset was successfully built! I (Yufei) have donated 515 faces and my teammate (Qi) has donated 500 faces. I tested training the models based on our own dataset for just a few epochs. The training result is shown in the figure above. Now the effect is not perfect, but it is expected to be much better after a long enough time of training.
