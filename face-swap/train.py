@@ -22,11 +22,11 @@ def save_model_weights():
     print("save model weights")
 
 
-print(encoder.summary())
-print(decoder_A.summary())
-print(decoder_B.summary())
-print(autoencoder_A.summary())
-print(autoencoder_B.summary())
+#print(encoder.summary())
+#print(decoder_A.summary())
+#print(decoder_B.summary())
+#print(autoencoder_A.summary())
+#print(autoencoder_B.summary())
 
 images_A = get_image_paths("data/trump")
 images_B = get_image_paths("data/cage")
@@ -47,8 +47,8 @@ for epoch in range(1000000):
     warped_A, target_A = get_training_data(images_A, batch_size)
     warped_B, target_B = get_training_data(images_B, batch_size)
 
-    print("Shape of warped_A: {0}  Shape of target_A: {1}".format(warped_A.shape, target_A.shape))
-    print("Shape of warped_B: {0}  Shape of target_B: {1}".format(warped_B.shape, target_B.shape))
+    #print("Shape of warped_A: {0}  Shape of target_A: {1}".format(warped_A.shape, target_A.shape))
+    #print("Shape of warped_B: {0}  Shape of target_B: {1}".format(warped_B.shape, target_B.shape))
 
     loss_A = autoencoder_A.train_on_batch(warped_A, target_A)
     loss_B = autoencoder_B.train_on_batch(warped_B, target_B)
