@@ -18,7 +18,7 @@ The webcam was called, the captured image was then fed into our pre-trained mode
   
   
 ### 2/7: Test OpenCV and face-detection API
-![alt text]()  
+![alt text](https://github.com/YufeiHu/EE211A-Digital-Image-Processing-Final-Project/blob/master/face-shot.png)  
 I tested the face-detection API provided in OpenCV on my local machine. The screenshot of running this API is shown in the figure above. It's functioning properly. Now we can start to prepare building our own dataset.
   
   
