@@ -1,7 +1,7 @@
 import cv2
 import numpy
-
 from umeyama import umeyama
+
 
 def random_transform( image, rotation_range, zoom_range, shift_range, random_flip ):
     h,w = image.shape[0:2]
@@ -15,6 +15,7 @@ def random_transform( image, rotation_range, zoom_range, shift_range, random_fli
     if numpy.random.random() < random_flip:
         result = result[:,::-1]
     return result
+
 
 # get pair of random warped images from aligened face image
 def random_warp( image ):
